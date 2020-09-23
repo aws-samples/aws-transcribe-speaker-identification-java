@@ -36,7 +36,7 @@ Use the following steps to setup the demo solution on your local computer. You n
 
 ### Solution Setup Steps
 
-1. Clone the solution’s github repository in your local computer using the command: git clone https://github.com/aws-samples/aws-transcribe-streaming-example-java.
+1. Clone the solution’s github repository in your local computer using the command: git clone https://github.com/aws-samples/aws-transcribe-speaker-identification-java
 2. Navigate to the main directory of the solution “aws-transcribe-streaming-example-java” by typing cd aws-transcribe-streaming-example-java.
 3. Let’s compile the source code and build a package for running our solution
     1. Type and enter mvn compile. If the compile is successful, you should a BUILD SUCCESS message in green color. If there are errors in compilation, this might most likely be related to JavaFX path issues. Please fix the issues based on instructions in the *Install JavaFX* section
