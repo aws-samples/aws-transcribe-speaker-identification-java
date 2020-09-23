@@ -30,9 +30,9 @@ Use the following steps to setup the demo solution on your local computer. You n
 1. Please follow these instructions (https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) to setup your Access Key and Secret Access Key required for programmatic access to AWS.
 2. Select an AWS region closest to your location from this regions page (https://docs.aws.amazon.com/general/latest/gr/transcribe.html#transcribe_region). Refer to the table under *Amazon Transcribe Streaming*.
 3. Once you know the region and access keys, open a terminal window in your computer and assign them to environment variables for access within our solution: 
-    1. export AWS_ACCESS_KEY_ID=<access-key>
-    2. export AWS_SECRET_ACCESS_KEY=<secret-access-key>
-    3. export AWS_REGION=<aws region>
+    1. export AWS_ACCESS_KEY_ID='<access-key>'
+    2. export AWS_SECRET_ACCESS_KEY='<secret-access-key>'
+    3. export AWS_REGION='<aws region>'
 
 ### Solution Setup Steps
 
