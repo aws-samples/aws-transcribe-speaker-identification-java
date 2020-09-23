@@ -10,22 +10,22 @@ Use the following steps to setup the demo solution on your local computer. You n
 
 ### Prerequisites
 
-*Install JavaFX*
+#### Install JavaFX
 
 1. Follow these instructions (https://openjfx.io/openjfx-docs/#install-javafx) to download and install JavaFX. 
 2. Setup the environment variable for JavaFX as shown in the instructions (https://openjfx.io/openjfx-docs/#install-javafx) page above or by typing: export PATH_TO_FX='path/to/javafx-sdk-14/lib' Replace the path/to with the directory where you installed JavaFX.
 3. Test your JavaFX installation as shown in this sample application (https://github.com/openjfx/samples/blob/master/HelloFX/CLI).
 
-*Install Maven*
+#### Install Maven
 
 1. Download Apache Maven from this page (https://maven.apache.org/download.cgi).
 2. Follow the steps provided in these installation instructions (https://maven.apache.org/install.html).
 
-*Install AWS CLI (Optional)*
+#### Install AWS CLI (Optional)
 
 1. Follow these instructions (https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) to install the AWS Command Line Interface (AWS CLI). This is an optional step, but can be used for validating or troubleshooting the solution as required.
 
-*Setup AWS Access*
+#### Setup AWS Access
 
 1. Please follow these instructions (https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) to setup your Access Key and Secret Access Key required for programmatic access to AWS.
 2. Select an AWS region closest to your location from this regions page (https://docs.aws.amazon.com/general/latest/gr/transcribe.html#transcribe_region). Refer to the table under *Amazon Transcribe Streaming*.
@@ -45,8 +45,6 @@ Use the following steps to setup the demo solution on your local computer. You n
 5. You should see a Java UI window open up
 
 ### Run the Demo Solution
-
-*Speaker Identification in Real-time Transcription*
 
 1. Click on the *Start Microphone Transcription* button in the Java UI application
 2. Use your computer’s microphone to stream an audio of two or more people (not more than 5) conversing in British English or US English. Amazon Transcribe Streaming supports the following languages currently:
